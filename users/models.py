@@ -6,6 +6,7 @@ class Profile(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     image = models.ImageField(default='default.jpg', upload_to='profile_pics')
     bio = models.CharField(default='', max_length=30)
+    darkmode = models.BooleanField(default=False)
 
         # def save(self, *args, **kwargs):
         #     super().save(*args, **kwargs)
