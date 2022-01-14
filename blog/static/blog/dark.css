@@ -35,7 +35,7 @@ a.article-title:hover {
 .article-metadata {
     padding-bottom: 1px;
     margin-bottom: 4px;
-    border-bottom: 1px solid #fff
+    border-bottom: 1px solid #707f93
 }
 
 .article-metadata a:hover {
@@ -45,4 +45,14 @@ a.article-title:hover {
 .list-group-item {
     color: #ffffff;
     background-color: #252D3B;
+}
+
+.form-control {
+    color: #ffffff;
+    background-color: #334865;
+    border: 1px solid #334865;
+}
+
+.text-dim {
+    color: #707f93;
 }
